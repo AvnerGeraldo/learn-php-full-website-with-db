@@ -1,0 +1,15 @@
+.container-fluid .navbar {
+	  margin-bottom: 5px;
+}
+.container-fluid .content {
+	min-height: 33.3em;
+}
+
+
+.container-fluid .footer {
+	  background-color: #007196;
+	  height: 40px;
+	  padding-top: 10px;
+	  text-align: center;
+	  color: #FFF;
+}
