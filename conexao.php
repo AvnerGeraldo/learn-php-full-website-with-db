@@ -12,9 +12,10 @@ try
 } catch (\PDOException $e) {
     die("Erro código: ".$e->getCode().": ".$e->getMessage());
 }
-
-$sql    = "SELECT * FROM tbpaginas";
+$id = "1";
+$sql    = "SELECT * FROM tbpaginas WHERE id_pagina = :id";
 $stmt   = $conexao->prepare($sql);
+$stmt->bindValue("id", $id);
 $stmt->execute();
 $res    = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
