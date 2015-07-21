@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea8684d6-4250-4d83-83db-e83e1423838a" name="Default" comment="" />
+    <list default="true" id="ea8684d6-4250-4d83-83db-e83e1423838a" name="Default" comment="Conexão com o banco de dados bd_site_simples">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/busca.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllerPaginas.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllerProdutos.php" />
+      <change type="DELETED" beforePath="C:\Webserver\Apache\htdocs\php-site-simples-bd\empresa.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contato.php" afterPath="$PROJECT_DIR$/contato.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fixture.php" afterPath="$PROJECT_DIR$/fixture.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.php" afterPath="$PROJECT_DIR$/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/produtos.php" afterPath="$PROJECT_DIR$/produtos.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-files/css/styleWebsite.css" afterPath="$PROJECT_DIR$/web-files/css/styleWebsite.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="php-site-simples-bd.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -13,6 +27,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/php-site-simples-bd$php_site_simples_bd__1_.coverage" NAME="php-site-simples-bd (1) Coverage Results" MODIFIED="1437169771895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -22,28 +39,112 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45090908">
-              <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+            <state vertical-scroll-proportion="-5.425">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="24.025">
+              <caret line="29" column="28" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="busca.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/busca.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.11712846">
+              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+              <folding>
+                <marker date="1437489445581" expanded="true" signature="156:292" placeholder="..." />
+                <marker date="1437489445581" expanded="true" signature="1450:1503" placeholder="..." />
+                <marker date="1437489445581" expanded="true" signature="1514:1586" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fixture.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fixture.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-58.125">
+              <caret line="122" column="16" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="16" />
+              <folding>
+                <marker date="1437352507752" expanded="true" signature="277:308" placeholder="DROP TABLE I..." />
+                <marker date="1437352507752" expanded="true" signature="381:622" placeholder="CREATE TABLE..tbprodutos..." />
+                <marker date="1437352507752" expanded="true" signature="974:1082" placeholder="INSERT INTO ..." />
+                <marker date="1437352507752" expanded="true" signature="1290:1320" placeholder="DROP TABLE I..." />
+                <marker date="1437352507752" expanded="true" signature="1400:1618" placeholder="CREATE TABLE..IF..." />
+                <marker date="1437352507752" expanded="true" signature="1896:1995" placeholder="INSERT INTO ..." />
+                <marker date="1437352507752" expanded="true" signature="2365:2464" placeholder="INSERT INTO ..." />
+                <marker date="1437352507752" expanded="true" signature="2948:3617" placeholder="..." />
+                <marker date="1437352507752" expanded="true" signature="2980:3606" placeholder="..." />
+                <marker date="1437352507752" expanded="true" signature="3061:3591" placeholder="..." />
+                <marker date="1437352507752" expanded="true" signature="3095:3483" placeholder="..." />
+                <marker date="1437352507752" expanded="true" signature="3147:3236" placeholder="..." />
+                <marker date="1437352507752" expanded="true" signature="3294:3460" placeholder="..." />
+                <marker date="1437352507752" expanded="true" signature="3323:3433" placeholder="..." />
+                <marker date="1437352507752" expanded="true" signature="3725:3824" placeholder="INSERT INTO ..." />
+                <marker date="1437352507752" expanded="true" signature="4200:4299" placeholder="INSERT INTO ..." />
+                <marker date="1437352507752" expanded="true" signature="4669:4768" placeholder="INSERT INTO ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="controllerPaginas.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllerPaginas.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.65">
+              <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
+              <folding>
+                <element signature="e#7#88#0#PHP" expanded="true" />
+                <marker date="1437487898596" expanded="true" signature="315:348" placeholder="SELECT * FRO..tbPaginas..." />
+                <marker date="1437487898596" expanded="true" signature="728:757" placeholder="SELECT * FRO..tbPaginas..." />
+                <marker date="1437487898596" expanded="true" signature="728:781" placeholder="SELECT * FRO..tbPaginas..." />
+                <marker date="1437487898596" expanded="true" signature="728:791" placeholder="SELECT * FRO..tbPaginas..." />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Avner" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/config.php" />
+        <option value="$PROJECT_DIR$/conexao.php" />
+        <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/controllerProdutos.php" />
+        <option value="$PROJECT_DIR$/produtos.php" />
+        <option value="$PROJECT_DIR$/fixture.php" />
+        <option value="$PROJECT_DIR$/empresa.php" />
+        <option value="$PROJECT_DIR$/web-files/css/styleWebsite.css" />
+        <option value="$PROJECT_DIR$/contato.php" />
+        <option value="$PROJECT_DIR$/footer.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/controllerPaginas.php" />
+        <option value="$PROJECT_DIR$/busca.php" />
       </list>
     </option>
   </component>
@@ -55,12 +156,13 @@
     <order />
   </component>
   <component name="PhpServers">
-    <servers />
+    <servers>
+      <server host="localhost" id="b9ccd421-ec05-42fe-8fda-eb59adc57f8c" name="Apache Server" />
+    </servers>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.6">
     <include_path>
       <path value="." />
-      <path value="C:\php\pear" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
@@ -76,7 +178,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -92,8 +194,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -118,18 +220,45 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Git/bin/git.exe" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="FullScreen" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Webserver\Apache 2.4\htdocs\php-site-simples-bd" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.header.php">
+    <configuration default="false" name="php-site-simples-bd (1)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner directory="$PROJECT_DIR$" />
+      <method />
+    </configuration>
+    <configuration default="false" name="conexao.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/conexao.php">
+      <method />
+    </configuration>
+    <configuration default="false" name="fixture.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost/php-site-simples-bd/fixture.php">
+      <method />
+    </configuration>
+    <configuration default="false" name="produtos.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost/php-site-simples-bd/produtos.php">
+      <method />
+    </configuration>
+    <configuration default="false" name="header.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost/php-site-simples-bd/header.php">
+      <method />
+    </configuration>
+    <configuration default="true" type="ChromiumRemoteDebugType" factoryName="Chromium Remote">
+      <method />
+    </configuration>
+    <configuration default="true" type="FirefoxRemoteDebugType" factoryName="Firefox Remote">
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeWebKit" factoryName="NW.js">
       <method />
     </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -140,10 +269,19 @@
       <BehatRunner />
       <method />
     </configuration>
+    <configuration default="true" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server">
+      <method />
+    </configuration>
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
+    <configuration default="true" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug">
+      <method />
+    </configuration>
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="42969790-8fbd-46c3-b496-023b35624db8" server_name="Site simples com bd">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" server_name="Apache Server" start_url="/php-site-simples-bd">
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -155,6 +293,22 @@
       <envs />
       <method />
     </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="PHPUnit.php-site-simples-bd (1)" />
+      <item index="1" class="java.lang.String" itemvalue="PHP Script.conexao.php" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.fixture.php" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.produtos.php" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.header.php" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.header.php" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.produtos.php" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.fixture.php" />
+        <item index="3" class="java.lang.String" itemvalue="PHP Script.conexao.php" />
+        <item index="4" class="java.lang.String" itemvalue="PHPUnit.php-site-simples-bd (1)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -173,28 +327,56 @@
       <option name="project" value="LOCAL" />
       <updated>1437010512625</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Conexão com o banco de dados bd_site_simples">
+      <created>1437170877346</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1437170877346</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Conexão com o banco de dados bd_site_simples - Bind Value">
+      <created>1437171575888</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1437171575888</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Gerando Fixture da tabela Produtos">
+      <created>1437174116216</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1437174116216</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17916666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19011815" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295063" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295063" sideWeight="0.5021482" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295063" sideWeight="0.49785176" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295063" sideWeight="0.49785176" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.018888889" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21333334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -214,36 +396,336 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Iniciando o projeto site simples com banco de dados" />
-    <option name="LAST_COMMIT_MESSAGE" value="Iniciando o projeto site simples com banco de dados" />
+    <MESSAGE value="Conexão com o banco de dados bd_site_simples" />
+    <MESSAGE value="Conexão com o banco de dados bd_site_simples - Bind Value" />
+    <MESSAGE value="Gerando Fixture da tabela Produtos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gerando Fixture da tabela Produtos" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="67" column="111" selection-start-line="67" selection-start-column="99" selection-end-line="67" selection-end-column="111" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/busca.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
+          <folding>
+            <marker date="1437489445581" expanded="true" signature="156:292" placeholder="..." />
+            <marker date="1437489445581" expanded="true" signature="1450:1503" placeholder="..." />
+            <marker date="1437489445581" expanded="true" signature="1514:1586" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="106" column="12" selection-start-line="106" selection-start-column="12" selection-end-line="106" selection-end-column="12" />
+          <folding>
+            <marker date="1437352507752" expanded="true" signature="277:308" placeholder="DROP TABLE I..." />
+            <marker date="1437352507752" expanded="true" signature="381:622" placeholder="CREATE TABLE..tbprodutos..." />
+            <marker date="1437352507752" expanded="true" signature="974:1082" placeholder="INSERT INTO ..." />
+            <marker date="1437352507752" expanded="true" signature="1290:1320" placeholder="DROP TABLE I..." />
+            <marker date="1437352507752" expanded="true" signature="1400:1618" placeholder="CREATE TABLE..IF..." />
+            <marker date="1437352507752" expanded="true" signature="1896:1995" placeholder="INSERT INTO ..." />
+            <marker date="1437352507752" expanded="true" signature="2365:2464" placeholder="INSERT INTO ..." />
+            <marker date="1437352507752" expanded="true" signature="2948:3617" placeholder="..." />
+            <marker date="1437352507752" expanded="true" signature="2980:3606" placeholder="..." />
+            <marker date="1437352507752" expanded="true" signature="3061:3591" placeholder="..." />
+            <marker date="1437352507752" expanded="true" signature="3095:3483" placeholder="..." />
+            <marker date="1437352507752" expanded="true" signature="3147:3236" placeholder="..." />
+            <marker date="1437352507752" expanded="true" signature="3294:3460" placeholder="..." />
+            <marker date="1437352507752" expanded="true" signature="3323:3433" placeholder="..." />
+            <marker date="1437352507752" expanded="true" signature="3725:3824" placeholder="INSERT INTO ..." />
+            <marker date="1437352507752" expanded="true" signature="4200:4299" placeholder="INSERT INTO ..." />
+            <marker date="1437352507752" expanded="true" signature="4669:4768" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllerPaginas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="49" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="49" />
+          <folding>
+            <element signature="e#7#88#0#PHP" expanded="true" />
+            <marker date="1437487898596" expanded="true" signature="315:348" placeholder="SELECT * FRO..tbPaginas..." />
+            <marker date="1437487898596" expanded="true" signature="728:757" placeholder="SELECT * FRO..tbPaginas..." />
+            <marker date="1437487898596" expanded="true" signature="728:781" placeholder="SELECT * FRO..tbPaginas..." />
+            <marker date="1437487898596" expanded="true" signature="728:791" placeholder="SELECT * FRO..tbPaginas..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contato.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45090908">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1437352507752" expanded="true" signature="277:308" placeholder="DROP TABLE I..." />
+            <marker date="1437352507752" expanded="true" signature="381:622" placeholder="CREATE TABLE..tbprodutos..." />
+            <marker date="1437352507752" expanded="true" signature="974:1082" placeholder="INSERT INTO ..." />
+            <marker date="1437352507752" expanded="true" signature="1290:1320" placeholder="DROP TABLE I..." />
+            <marker date="1437352507752" expanded="true" signature="1400:1618" placeholder="CREATE TABLE..IF..." />
+            <marker date="1437352507752" expanded="true" signature="1896:1995" placeholder="INSERT INTO ..." />
+            <marker date="1437352507752" expanded="true" signature="2365:2464" placeholder="INSERT INTO ..." />
+            <marker date="1437352507752" expanded="true" signature="2948:3617" placeholder="..." />
+            <marker date="1437352507752" expanded="true" signature="2980:3606" placeholder="..." />
+            <marker date="1437352507752" expanded="true" signature="3061:3591" placeholder="..." />
+            <marker date="1437352507752" expanded="true" signature="3095:3483" placeholder="..." />
+            <marker date="1437352507752" expanded="true" signature="3147:3236" placeholder="..." />
+            <marker date="1437352507752" expanded="true" signature="3294:3460" placeholder="..." />
+            <marker date="1437352507752" expanded="true" signature="3323:3433" placeholder="..." />
+            <marker date="1437352507752" expanded="true" signature="3725:3824" placeholder="INSERT INTO ..." />
+            <marker date="1437352507752" expanded="true" signature="4200:4299" placeholder="INSERT INTO ..." />
+            <marker date="1437352507752" expanded="true" signature="4669:4768" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/produtos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/error-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllerProdutos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
       <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35227272">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conexao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-32.25">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#87#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/error-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllerProdutos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/produtos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.2052897">
+          <caret line="73" column="4" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-files/css/styleWebsite.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.92230576">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.65">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contato.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4534005">
+          <caret line="42" column="85" selection-start-line="42" selection-start-column="85" selection-end-line="42" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="24.025">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.425">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-58.125">
+          <caret line="122" column="16" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="16" />
+          <folding>
+            <marker date="1437352507752" expanded="true" signature="277:308" placeholder="DROP TABLE I..." />
+            <marker date="1437352507752" expanded="true" signature="381:622" placeholder="CREATE TABLE..tbprodutos..." />
+            <marker date="1437352507752" expanded="true" signature="974:1082" placeholder="INSERT INTO ..." />
+            <marker date="1437352507752" expanded="true" signature="1290:1320" placeholder="DROP TABLE I..." />
+            <marker date="1437352507752" expanded="true" signature="1400:1618" placeholder="CREATE TABLE..IF..." />
+            <marker date="1437352507752" expanded="true" signature="1896:1995" placeholder="INSERT INTO ..." />
+            <marker date="1437352507752" expanded="true" signature="2365:2464" placeholder="INSERT INTO ..." />
+            <marker date="1437352507752" expanded="true" signature="2948:3617" placeholder="..." />
+            <marker date="1437352507752" expanded="true" signature="2980:3606" placeholder="..." />
+            <marker date="1437352507752" expanded="true" signature="3061:3591" placeholder="..." />
+            <marker date="1437352507752" expanded="true" signature="3095:3483" placeholder="..." />
+            <marker date="1437352507752" expanded="true" signature="3147:3236" placeholder="..." />
+            <marker date="1437352507752" expanded="true" signature="3294:3460" placeholder="..." />
+            <marker date="1437352507752" expanded="true" signature="3323:3433" placeholder="..." />
+            <marker date="1437352507752" expanded="true" signature="3725:3824" placeholder="INSERT INTO ..." />
+            <marker date="1437352507752" expanded="true" signature="4200:4299" placeholder="INSERT INTO ..." />
+            <marker date="1437352507752" expanded="true" signature="4669:4768" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllerPaginas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.65">
+          <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
+          <folding>
+            <element signature="e#7#88#0#PHP" expanded="true" />
+            <marker date="1437487898596" expanded="true" signature="315:348" placeholder="SELECT * FRO..tbPaginas..." />
+            <marker date="1437487898596" expanded="true" signature="728:757" placeholder="SELECT * FRO..tbPaginas..." />
+            <marker date="1437487898596" expanded="true" signature="728:781" placeholder="SELECT * FRO..tbPaginas..." />
+            <marker date="1437487898596" expanded="true" signature="728:791" placeholder="SELECT * FRO..tbPaginas..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/busca.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11712846">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding>
+            <marker date="1437489445581" expanded="true" signature="156:292" placeholder="..." />
+            <marker date="1437489445581" expanded="true" signature="1450:1503" placeholder="..." />
+            <marker date="1437489445581" expanded="true" signature="1514:1586" placeholder="..." />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>

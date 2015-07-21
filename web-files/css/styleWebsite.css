@@ -13,3 +13,22 @@
 	  text-align: center;
 	  color: #FFF;
 }
+#list-products {
+	padding: 0 1px !important;
+}
+#list-products .img-responsive {
+	width: 100%;
+	height: 15em;
+	background-color: #D3D3D3;
+}
+
+#list-products .price label {
+	font-weight: bold;
+	font-size: 22px;
+	font-style: oblique;
+}
+
+form.navbar-form[role="search"] button{
+	height: 31px;
+	width: 40px;
+}
