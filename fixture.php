@@ -130,8 +130,7 @@ $stmt->execute();
 //Contato
 $nome_pagina        = "Contato";
 $link_pagina        = "contato";
-$conteudo_pagina    = "Página Contato";
-$conteudo_pagina = htmlentities($conteudo_pagina, ENT_QUOTES, 'ISO-8859-1');
+$conteudo_pagina    = null;
 $stmt = $conn->prepare("INSERT INTO tbPaginas(nome_pagina, link_pagina, conteudo_pagina) VALUES(:pagina, :link , :conteudo)");
 $stmt->bindValue("pagina", $nome_pagina);
 $stmt->bindValue("link", $link_pagina);
